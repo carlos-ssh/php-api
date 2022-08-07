@@ -38,6 +38,10 @@ class ComposerStaticInitadbce9effeabea681d2f35f41976c1f1
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -94,6 +98,10 @@ class ComposerStaticInitadbce9effeabea681d2f35f41976c1f1
         'Doctrine\\Common\\Annotations\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

@@ -8,4 +8,9 @@ class CitasController {
         $response->getBody()->write("Hello world!");
         return $response;
     }
+
+    public function ciudadesUnicas($request, $response, $arg){
+        $response->getBody()->write("Hello world!");
+        return $response;
+    }
 }

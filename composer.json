@@ -4,5 +4,10 @@
         "slim/psr7": "^1.5",
         "psr/container": "^2.0",
         "php-di/php-di": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
     }
 }
